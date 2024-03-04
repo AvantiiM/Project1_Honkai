@@ -1,0 +1,70 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  color: rgb(0, 0, 0);
+  /* background-color: rgb(57, 203, 232); */
+}
+
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background: url('https://cdn2.unrealengine.com/1920x1080blogpostshareimage-1920x1080-7ea135dd756c.png') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.Info button {
+  padding: 3px 10px; 
+  background-color: rgb(202, 245, 222);
+  border: 1px solid rgb(202, 245, 222);
+  border-radius: 4px;
+  cursor: pointer; 
+  color: rgb(76, 6, 6); 
+}
+
+.Info button:hover {
+  background-color: rgb(5, 60, 83); 
+  color: white;
+}
+
+
+/* .Character table {
+  border-collapse: collapse;
+  width: 100%;
+} */
+
+.Character td {
+  border-bottom: 1px solid black; 
+  border-left: 1px solid black; 
+  border-right: 1px solid black;
+  padding: 14px; 
+  text-align: center; 
+  background-color: rgb(9, 63, 74);
+}
+
+
+.Character th {
+  border-top: 1px solid black;
+  border-left: 1px solid black; 
+  border-right: 1px solid black; 
+  padding: 14px; 
+  text-align: center;
+  background-color: rgb(66, 136, 150);
+}
+
+.Character th img {
+  width: 170px;
+  height: 170px;
+}
+
+
+h1, h3 {
+  color: white;
+  background-color: rgb(28, 3, 44);
+  padding: 2px;
+}
