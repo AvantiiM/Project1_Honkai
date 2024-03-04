@@ -2,7 +2,7 @@
 
 Submitted by: **Avanti Manjunath**
 
-This web app: **insert description**
+This web app: **creates a Honkai character board with lore**
 
 Time spent: **5** hours spent in total
 
